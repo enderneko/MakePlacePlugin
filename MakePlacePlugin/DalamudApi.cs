@@ -10,8 +10,10 @@ public class DalamudApi
 {
     public static void Initialize(IDalamudPluginInterface pluginInterface) => pluginInterface.Create<DalamudApi>();
 
+    // test msg
+
     // [PluginService] public static IAetheryteList AetheryteList { get; private set; } = null;
-    // [PluginService] public static IBuddyList BuddyList { get; private set; } = null;    
+    // [PluginService] public static IBuddyList BuddyList { get; private set; } = null;
     [PluginService] public static IChatGui ChatGui { get; private set; } = null;
     [PluginService] public static IClientState ClientState { get; private set; } = null;
     [PluginService] public static ICommandManager CommandManager { get; private set; } = null;
